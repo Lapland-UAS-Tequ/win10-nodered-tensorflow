@@ -20,9 +20,11 @@ NVIDIA Quadro P600
 
 ## Installation
 
+
 1. Download and CUDA 11 Toolkit.
 
 https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/cuda_11.3.0_465.89_win10.exe
+
 
 2. Download and unzip cuDNN 8.
 
@@ -36,15 +38,18 @@ Copy extracted files in folder Cuda\include to C:\Program Files\NVIDIA GPU Compu
 
 You could also setup environment variables to point the location of cuDNN files to make things work.
 
+
 3. Download and install cusolver64_10.dll if its missing
 
 https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/cusolver64_10.dll
 
 Copy cusolver64_10.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
 
+
 4. Download and install Node.js
 
 https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.1.0-x64.msi
+
 
 5. Install windows-build-tools using command line (run as administrator)
 
@@ -52,17 +57,22 @@ https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud
 
 Add path "C:\Users\<your-user-name>\.windows-build-tools\python27 into environment varibles PYTHON & PATH
 
+
 6. Install node-gyp
 
 ```npm install -g node-gyp```
+
 
 7. Install Node-RED
 
 ```npm install -g --unsafe-perm node-red```
 
+
 8. Install @tensorflow@tfjs-node-gpu@3.6.1
+```cd c:\users\<your-user-name>\.node-red```
 
 ```npm install @tensorflow@tfjs-node-gpu@3.6.1```
+
 
 9. Install node-red-contrib-cloud-annotations-gpu
 
@@ -70,9 +80,11 @@ Add path "C:\Users\<your-user-name>\.windows-build-tools\python27 into environme
 
 ```npm install node-red-contrib-cloud-annotations-gpu```
 
+
 10. Remove "node_modules"-folder from  
 
 ```C:\Users\<your-user-name>\.node-red\node_modules\@cloud-annotations\models-node-gpu```
+
 
 11. Test your setup
 
@@ -88,6 +100,7 @@ You should see something like this:
 https://github.com/juhaautioniemi/win10-nodered-tensorflow/blob/master/images/node_test.JPG "Node-RED log")
 
 13. Start Node-RED 
-14. node-red-contrib-cloud-annotations-gpu is ready to use
+
+15. node-red-contrib-cloud-annotations-gpu is ready to use
 
 First inference has slow start and it takes something like ~1-5 seconds. After that it should run smoothly.
