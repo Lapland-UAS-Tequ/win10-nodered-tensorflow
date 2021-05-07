@@ -1,5 +1,5 @@
 # win10-nodered-tensorflow
-This guide is for using "node-red-contrib-cloud-annotations-gpu"-node to make predictions on images. This setup requires Windows 10 PC with NVIDIA GPU. If you skip CUDA installations, Tensorflow should fall back to CPU.
+This guide is for using "node-red-contrib-cloud-annotations-gpu"-node to make predictions on images. GPU support requires Windows 10 PC with CUDA compatible NVIDIA GPU. If you skip CUDA installations, Tensorflow should fall back to CPU backend.
 
 After running all commands you should have following versions of the components
 
@@ -12,7 +12,7 @@ After running all commands you should have following versions of the components
 | tfjs-node-gpu | 3.6.1	        | 
 | node-red-contrib-cloud-annotations-gpu | 0.0.5 |
 
-This guide has been tested with following PC-setup:
+PC setup which I have used:
 
 Intel i7
 Windows 10
