@@ -14,9 +14,15 @@ After running all commands you should have following versions of the components
 
 PC setup which I have used:
 
-Intel i7
+Dell Laptop
+Intel Core i7-8850H @ 2.60 GHz
+
 Windows 10
+
+16 GB RAM
+
 NVIDIA Quadro P600
+
 
 ## Installation
 
