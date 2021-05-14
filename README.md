@@ -39,8 +39,11 @@ https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud
 Copy extracted files to CUDA Toolkit installation folder following the same folder structure.
 
 Copy extracted files in folder Cuda\bin to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+
 Copy extracted files in folder Cuda\lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\lib
+
 Copy extracted files in folder Cuda\include to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include
+
 
 You could also setup environment variables to point the location of cuDNN files to make things work.
 
@@ -59,46 +62,68 @@ https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud
 
 5. Install windows-build-tools using command line (run as administrator)
 
-```npm --add-python-to-path='true' --debug install --global windows-build-tools```
+```
+npm --add-python-to-path='true' --debug install --global windows-build-tools
+```
 
 Add path "C:\Users\<your-user-name>\.windows-build-tools\python27 into environment varibles PYTHON & PATH
 
 
 6. Install node-gyp
 
-```npm install -g node-gyp```
+```
+npm install -g node-gyp
+```
 
 
 7. Install Node-RED
 
-```npm install -g --unsafe-perm node-red```
+```
+npm install -g --unsafe-perm node-red
+```
 
 
 8. Install @tensorflow@tfjs-node-gpu@3.6.1
-```cd c:\users\<your-user-name>\.node-red```
+```
+cd c:\users\<your-user-name>\.node-red
+```
 
-```npm install @tensorflow@tfjs-node-gpu@3.6.1```
+```
+npm install @tensorflow@tfjs-node-gpu@3.6.1
+```
 
 
 9. Install node-red-contrib-cloud-annotations-gpu
 
-```cd c:\users\<your-user-name>\.node-red```
+```
+cd c:\users\<your-user-name>\.node-red
+```
 
-```npm install node-red-contrib-cloud-annotations-gpu```
+```
+npm install node-red-contrib-cloud-annotations-gpu
+```
 
 
 10. Remove "node_modules"-folder from  
 
-```C:\Users\<your-user-name>\.node-red\node_modules\@cloud-annotations\models-node-gpu```
+```
+C:\Users\<your-user-name>\.node-red\node_modules\@cloud-annotations\models-node-gpu
+```
 
 
 11. Test your setup
 
-```cd c:\users\<your-user-name>\.node-red```
+```
+cd c:\users\<your-user-name>\.node-red
+```
 
-```node```
+```
+node
+```
 
-```var tf = require('@tensorflow/tfjs-node-gpu')```
+```
+var tf = require('@tensorflow/tfjs-node-gpu')
+```
 
 You should see something like this:
 
