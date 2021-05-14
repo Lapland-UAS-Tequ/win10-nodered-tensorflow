@@ -38,11 +38,11 @@ https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud
 
 Copy extracted files to CUDA Toolkit installation folder following the same folder structure.
 
-Copy extracted files in folder Cuda\bin to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+Copy extracted files in folder ```Cuda\bin``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin```
 
-Copy extracted files in folder Cuda\lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\lib
+Copy extracted files in folder ```Cuda\lib``` to ```C::\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\lib```
 
-Copy extracted files in folder Cuda\include to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include
+Copy extracted files in folder ```Cuda\include``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include```
 
 
 You could also setup environment variables to point the location of cuDNN files to make things work.
@@ -52,7 +52,7 @@ You could also setup environment variables to point the location of cuDNN files 
 
 https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/cusolver64_10.dll
 
-Copy cusolver64_10.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+Copy ```cusolver64_10.dll``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin```
 
 
 4. Download and install Node.js
