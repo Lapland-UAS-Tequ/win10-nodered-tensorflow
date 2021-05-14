@@ -27,12 +27,16 @@ NVIDIA Quadro P600
 ## Installation
 
 
-### 1. Download and CUDA 11 Toolkit.
+### 1. Download CUDA 11 Toolkit.
+
+Download CUDA 11 toolkit and run installer.
 
 https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/cuda_11.3.0_465.89_win10.exe
 
 
 ### 2. Download and unzip cuDNN 8.
+
+Download cuDNN 8 package and install files.
 
 https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/cudnn-11.3-windows-x64-v8.2.0.53.zip
 
