@@ -70,7 +70,7 @@ https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud
 npm --add-python-to-path='true' --debug install --global windows-build-tools
 ```
 
-Add path "C:\Users\<your-user-name>\.windows-build-tools\python27 into environment varibles PYTHON & PATH
+Add path "C:\Users\<your-user-name>\.windows-build-tools\python27" into environment varibles PYTHON & PATH
 
 
 ### 6. Install node-gyp
