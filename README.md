@@ -87,13 +87,13 @@ npm install -g --unsafe-perm node-red
 ```
 
 
-### 8. Install @tensorflow@tfjs-node-gpu@3.6.1
+### 8. Install @tensorflow/tfjs-node-gpu@3.6.1
 ```
 cd c:\users\<your-user-name>\.node-red
 ```
 
 ```
-npm install @tensorflow@tfjs-node-gpu@3.6.1
+npm install @tensorflow/tfjs-node-gpu@3.6.1
 ```
 
 
