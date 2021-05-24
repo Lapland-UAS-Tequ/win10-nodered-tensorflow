@@ -63,34 +63,17 @@ Copy ```cusolver64_10.dll``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit
 
 https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.1.0-x64.msi
 
-Install with all options and addons.
-
-### 5. Install windows-build-tools using command line (run as administrator)
-
-```
-npm --add-python-to-path='true' --debug install --global windows-build-tools
-```
-
-Add path "C:\Users\<your-user-name>\.windows-build-tools\python27" into environment varibles PYTHON & PATH
-
-At the moment installing tfjs-node-gpu requires Python 2.7. If you have Python 3 installed, it will cause problems.
+**Install with all options and addons.**
 
 
-### 6. Install node-gyp
-
-```
-npm install -g node-gyp
-```
-
-
-### 7. Install Node-RED
+### 5. Install Node-RED
 
 ```
 npm install -g --unsafe-perm node-red
 ```
 
 
-### 8. Install @tensorflow/tfjs-node-gpu@3.6.1
+### 6. Install @tensorflow/tfjs-node-gpu@3.6.1
 ```
 cd c:\users\<your-user-name>\.node-red
 ```
@@ -100,7 +83,7 @@ npm install @tensorflow/tfjs-node-gpu@3.6.1
 ```
 
 
-### 9. Install node-red-contrib-cloud-annotations-gpu
+### 7. Install node-red-contrib-cloud-annotations-gpu
 
 ```
 cd c:\users\<your-user-name>\.node-red
@@ -111,14 +94,14 @@ npm install node-red-contrib-cloud-annotations-gpu
 ```
 
 
-### 10. Remove "node_modules"-folder from  
+### 8. Remove "node_modules"-folder from  
 
 ```
 C:\Users\<your-user-name>\.node-red\node_modules\@cloud-annotations\models-node-gpu
 ```
 
 
-### 11. Test your setup
+### 9. Test your setup
 
 ```
 cd c:\users\<your-user-name>\.node-red
