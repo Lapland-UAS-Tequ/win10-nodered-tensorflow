@@ -63,6 +63,7 @@ Copy ```cusolver64_10.dll``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit
 
 https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.1.0-x64.msi
 
+Install with all options and addons.
 
 ### 5. Install windows-build-tools using command line (run as administrator)
 
@@ -71,6 +72,8 @@ npm --add-python-to-path='true' --debug install --global windows-build-tools
 ```
 
 Add path "C:\Users\<your-user-name>\.windows-build-tools\python27" into environment varibles PYTHON & PATH
+
+At the moment installing tfjs-node-gpu requires Python 2.7. If you have Python 3 installed, it will cause problems.
 
 
 ### 6. Install node-gyp
