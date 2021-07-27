@@ -127,3 +127,24 @@ https://github.com/juhaautioniemi/win10-nodered-tensorflow/blob/master/images/no
 ### 13. node-red-contrib-cloud-annotations-gpu is ready to use
 
 First inference has slow start and it takes something like ~1-5 seconds. After that it should run smoothly.
+
+### 14. Installing node-canvas for fast annotation and image processing
+
+```
+Download and install libjpeg-turbo 64bit to folder C:\libjpeg-turbo64
+```
+https://sourceforge.net/projects/libjpeg-turbo/files/
+
+```
+Download and install GTK 2 64bit C:\GTK
+```
+http://ftp.gnome.org/pub/GNOME/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip
+```
+
+```
+cd c:\users\<your-user-name>\.node-red
+```
+
+```
+npm install node-canvas --build-from-source
+```
