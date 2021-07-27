@@ -100,6 +100,8 @@ npm install node-red-contrib-cloud-annotations-gpu
 C:\Users\<your-user-name>\.node-red\node_modules\@cloud-annotations\models-node-gpu
 ```
 
+***If you install new nodes. You need to remove "node_modules" again after every installation.***
+
 
 ### 9. Test your setup
 
