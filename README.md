@@ -7,7 +7,7 @@ This guide is for preparing your Windows 10 machine for computer vision in Node-
 After running all commands you should have following versions of the components and be able to make predictions on images.
 
 | Software      | Version       | Link |
-| ------------- |:-------------:| |:-------------:| 
+| ------------- |:-------------:| :-------------:| 
 | CUDA          | 11.3.326      | https://developer.nvidia.com/cuda-downloads |
 | cuDNN         | 8.2.0.53	    | https://developer.nvidia.com/cudnn |
 | node-red	    | 2.0.4	        | https://www.npmjs.com/package/node-red |
