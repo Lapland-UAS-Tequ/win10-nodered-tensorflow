@@ -138,7 +138,7 @@ First inference seems to have a slow start and it takes something like ~1-5 seco
 
 ## Installing canvas for fast annotation and image processing
 
-### 1. Download and install libjpeg-turbo 64bit to folder C:\libjpeg-turbo64
+### 1. Download and install libjpeg-turbo-2.1.0-vc64.exe (or newer) to folder C:\libjpeg-turbo64
 
 https://sourceforge.net/projects/libjpeg-turbo/files/
 
