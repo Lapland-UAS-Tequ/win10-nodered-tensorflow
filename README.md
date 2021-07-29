@@ -126,7 +126,7 @@ https://github.com/juhaautioniemi/win10-nodered-tensorflow/blob/master/images/no
 
 ### 13. node-red-contrib-cloud-annotations-gpu is ready to use
 
-First inference has slow start and it takes something like ~1-5 seconds. After that it should run smoothly.
+First inference seems to have a slow start and it takes something like ~1-5 seconds. After that everything should run smoothly. On my computer one inference takes something like 50-70 ms to complete.
 
 -----------------
 -----------------
