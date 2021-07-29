@@ -128,8 +128,11 @@ https://github.com/juhaautioniemi/win10-nodered-tensorflow/blob/master/images/no
 
 First inference has slow start and it takes something like ~1-5 seconds. After that it should run smoothly.
 
+-----------------
+-----------------
+-----------------
 
-# Installing node-canvas for fast annotation and image processing
+## Installing node-canvas for fast annotation and image processing
 
 ### 1. Download and install libjpeg-turbo 64bit to folder C:\libjpeg-turbo64
 
