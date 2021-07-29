@@ -7,9 +7,9 @@ After running all commands you should have following versions of the components
 | ------------- |:-------------:| 
 | CUDA          | 11.3.326      |  
 | cuDNN         | 8.2.0.53	    | 
-| node-red	    | 1.3.4	        |
+| node-red	    | 2.0.4	        |
 | node.js       | 16.1.0        |
-| tfjs-node-gpu | 3.6.1	        | 
+| tfjs-node-gpu | 3.8.0	        | 
 | node-red-contrib-cloud-annotations-gpu | 0.0.5 |
 
 PC setup which I have used:
@@ -79,7 +79,7 @@ cd c:\users\<your-user-name>\.node-red
 ```
 
 ```
-npm install @tensorflow/tfjs-node-gpu@3.6.1
+npm install @tensorflow/tfjs-node-gpu@3.8.0
 ```
 
 
@@ -128,17 +128,19 @@ https://github.com/juhaautioniemi/win10-nodered-tensorflow/blob/master/images/no
 
 First inference has slow start and it takes something like ~1-5 seconds. After that it should run smoothly.
 
-### 14. Installing node-canvas for fast annotation and image processing
 
-```
-Download and install libjpeg-turbo 64bit to folder C:\libjpeg-turbo64
-```
+# Installing node-canvas for fast annotation and image processing
+
+### 1. Download and install libjpeg-turbo 64bit to folder C:\libjpeg-turbo64
+
 https://sourceforge.net/projects/libjpeg-turbo/files/
 
 
-```Download and install GTK 2 64bit to folder C:\GTK```
+### 2. Download and install GTK 2 64bit to folder C:\GTK
 
 http://ftp.gnome.org/pub/GNOME/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip
+
+### 3. Execute following commands
 
 ```
 cd c:\users\<your-user-name>\.node-red
@@ -160,7 +162,4 @@ node-gyp configure
 node-gyp build
 ```
 
-```
-Start Node-RED 
-```
-
+### 4. Node-canvas is ready to use in function-node.
