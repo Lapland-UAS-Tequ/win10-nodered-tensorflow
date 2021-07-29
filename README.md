@@ -136,7 +136,7 @@ Download and install libjpeg-turbo 64bit to folder C:\libjpeg-turbo64
 https://sourceforge.net/projects/libjpeg-turbo/files/
 
 
-```Download and install GTK 2 64bit C:\GTK```
+```Download and install GTK 2 64bit to folder C:\GTK```
 
 http://ftp.gnome.org/pub/GNOME/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip
 
@@ -145,5 +145,22 @@ cd c:\users\<your-user-name>\.node-red
 ```
 
 ```
-npm install node-canvas --build-from-source
+npm install node-canvas 
 ```
+
+```
+cd c:\users\<your-user-name>\.node-red\node_modules\canvas
+```
+
+```
+node-gyp configure
+```
+
+```
+node-gyp build
+```
+
+```
+Start Node-RED 
+```
+
