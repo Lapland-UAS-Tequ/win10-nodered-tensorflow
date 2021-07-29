@@ -1,16 +1,20 @@
 # win10-nodered-tensorflow
-This guide is for preparing your Windows 10 machine for computer vision in Node-RED with "tfjs-node-gpu" and node-canvas modules. GPU support requires Windows 10 PC with CUDA compatible NVIDIA GPU. If you skip CUDA installations, Tensorflow should fall back to CPU backend. 
+This guide is for preparing your Windows 10 machine for computer vision in Node-RED with "tfjs-node-gpu" and canvas modules. GPU support requires Windows 10 PC with CUDA compatible NVIDIA GPU. If you skip CUDA installations, Tensorflow should fall back to CPU backend. 
+
+
+
 
 After running all commands you should have following versions of the components and be able to make predictions on images.
 
-| Software      | Version       | 
-| ------------- |:-------------:| 
-| CUDA          | 11.3.326      |  
-| cuDNN         | 8.2.0.53	    | 
-| node-red	    | 2.0.4	        |
-| node.js       | 16.1.0        |
-| tfjs-node-gpu | 3.8.0	        | 
-| node-red-contrib-cloud-annotations-gpu | 0.0.5 |
+| Software      | Version       | Link |
+| ------------- |:-------------:| |:-------------:| 
+| CUDA          | 11.3.326      | https://developer.nvidia.com/cuda-downloads |
+| cuDNN         | 8.2.0.53	    | https://developer.nvidia.com/cudnn |
+| node-red	    | 2.0.4	        | https://www.npmjs.com/package/node-red |
+| node.js       | 16.1.0        | https://nodejs.org/en/|
+| tfjs-node-gpu | 3.8.0	        | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
+| node-red-contrib-cloud-annotations-gpu | 0.0.5 | https://flows.nodered.org/node/node-red-contrib-cloud-annotations-gpu |
+| canvas | 2.8.0 | https://www.npmjs.com/package/canvas |
 
 PC setup which I have used:
 
@@ -132,7 +136,7 @@ First inference seems to have a slow start and it takes something like ~1-5 seco
 -----------------
 -----------------
 
-## Installing node-canvas for fast annotation and image processing
+## Installing canvas for fast annotation and image processing
 
 ### 1. Download and install libjpeg-turbo 64bit to folder C:\libjpeg-turbo64
 
@@ -150,7 +154,7 @@ cd c:\users\<your-user-name>\.node-red
 ```
 
 ```
-npm install node-canvas 
+npm install canvas 
 ```
 
 ```
@@ -165,4 +169,4 @@ node-gyp configure
 node-gyp build
 ```
 
-### 4. Node-canvas is ready to use in function-node.
+### 4. Canvas is ready to use in function-node.
