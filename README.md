@@ -13,8 +13,7 @@ After running all commands you should have following versions of the components 
 | node-red	    | 2.0.4	        | https://www.npmjs.com/package/node-red |
 | node.js       | 16.1.0        | https://nodejs.org/en/|
 | tfjs-node-gpu | 3.8.0	        | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
-| node-red-contrib-cloud-annotations-gpu | 0.0.5 | https://flows.nodered.org/node/node-red-contrib-cloud-annotations-gpu |
-| canvas | 2.8.0 | https://www.npmjs.com/package/canvas |
+| canvas        | 2.8.0 | https://www.npmjs.com/package/canvas |
 
 PC setup which I have used:
 
@@ -86,28 +85,7 @@ cd c:\users\<your-user-name>\.node-red
 npm install @tensorflow/tfjs-node-gpu@3.8.0
 ```
 
-
-### 7. Install node-red-contrib-cloud-annotations-gpu
-
-```
-cd c:\users\<your-user-name>\.node-red
-```
-
-```
-npm install node-red-contrib-cloud-annotations-gpu
-```
-
-
-### 8. Remove "node_modules"-folder from  
-
-```
-C:\Users\<your-user-name>\.node-red\node_modules\@cloud-annotations\models-node-gpu
-```
-
-***If you install new nodes you need to remove "node_modules" again after every installation.***
-
-
-### 9. Test your setup
+### 7. Test your setup
 
 ```
 cd c:\users\<your-user-name>\.node-red
@@ -126,9 +104,18 @@ You should see something like this:
 ![alt text](
 https://github.com/juhaautioniemi/win10-nodered-tensorflow/blob/master/images/node_test.JPG "Node-RED log")
 
-### 12. Start Node-RED 
+### 8. Start Node-RED 
 
-### 13. node-red-contrib-cloud-annotations-gpu is ready to use
+### 9. Tensorflow is ready to use
+
+Examples to use Tensorflow in Node-RED:
+
+https://github.com/juhaautioniemi/tequ-api-client
+
+Training models
+
+Tensorflow 2: https://github.com/juhaautioniemi/tequ-tf2-ca-training-pipeline
+Tensorflow 1: https://github.com/juhaautioniemi/tequ-tf1-ca-training-pipeline
 
 First inference seems to have a slow start and it takes something like ~1-5 seconds. After that everything should run smoothly. On my computer one inference takes something like 50-70 ms to complete.
 
