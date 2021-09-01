@@ -10,9 +10,9 @@ After running all commands you should have following versions of the components 
 | ------------- |:-------------:| :-------------:| 
 | CUDA          | 11.3.326      | https://developer.nvidia.com/cuda-downloads |
 | cuDNN         | 8.2.0.53	    | https://developer.nvidia.com/cudnn |
-| node-red	    | 2.0.4	        | https://www.npmjs.com/package/node-red |
+| node-red	    | 2.0.5	        | https://www.npmjs.com/package/node-red |
 | node.js       | 16.1.0        | https://nodejs.org/en/|
-| tfjs-node-gpu | 3.8.0	        | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
+| tfjs-node-gpu | 3.9.0	        | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
 | canvas        | 2.8.0 | https://www.npmjs.com/package/canvas |
 
 PC setup which I have used:
