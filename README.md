@@ -102,7 +102,7 @@ var tf = require('@tensorflow/tfjs-node-gpu')
 You should see something like this:
 
 ![alt text](
-https://github.com/juhaautioniemi/win10-nodered-tensorflow/blob/master/images/node_test.JPG "Node-RED log")
+https://github.com/Lapland-UAS-Tequ/win10-nodered-tensorflow/blob/master/images/node_test.JPG "Node-RED log")
 
 ### 8. Start Node-RED 
 
@@ -110,12 +110,12 @@ https://github.com/juhaautioniemi/win10-nodered-tensorflow/blob/master/images/no
 
 Examples to use Tensorflow in Node-RED:
 
-https://github.com/juhaautioniemi/tequ-api-client
+https://github.com/Lapland-UAS-Tequ/tequ-api-client
 
 Training models
 
-Tensorflow 2: https://github.com/juhaautioniemi/tequ-tf2-ca-training-pipeline
-Tensorflow 1: https://github.com/juhaautioniemi/tequ-tf1-ca-training-pipeline
+Tensorflow 2: https://github.com/Lapland-UAS-Tequ/tequ-tf2-ca-training-pipeline
+Tensorflow 1: https://github.com/Lapland-UAS-Tequ/tequ-tf1-ca-training-pipeline
 
 First inference seems to have a slow start and it takes something like ~1-5 seconds. After that everything should run smoothly. On my computer one inference takes something like 50-70 ms to complete.
 
