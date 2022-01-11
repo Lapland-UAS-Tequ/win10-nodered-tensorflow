@@ -13,7 +13,7 @@ After running all commands you should have following versions of the components 
 | node-red	    | 2.1.4	        | https://www.npmjs.com/package/node-red |
 | node.js       | 16.13.2       | https://nodejs.org/en/|
 | tfjs-node-gpu | 3.12.0	      | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
-| canvas        | 2.8.0         | https://www.npmjs.com/package/canvas |
+| canvas        | 2.9.0         | https://www.npmjs.com/package/canvas |
 
 PC setup which I have used:
 
@@ -125,7 +125,7 @@ First inference seems to have a slow start and it takes something like ~1-5 seco
 
 ## Installing canvas for fast annotation and image processing
 
-### 1. Download and install libjpeg-turbo-2.1.0-vc64.exe (or newer) to folder C:\libjpeg-turbo64
+### 1. Download and install libjpeg-turbo-2.1.2-vc64.exe (or newer) to folder C:\libjpeg-turbo64
 
 https://sourceforge.net/projects/libjpeg-turbo/files/
 
