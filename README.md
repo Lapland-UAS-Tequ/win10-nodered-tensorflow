@@ -10,10 +10,10 @@ After running all commands you should have following versions of the components 
 | ------------- |:-------------:| :-------------:| 
 | CUDA          | 11.3.326      | https://developer.nvidia.com/cuda-downloads |
 | cuDNN         | 8.2.0.53	    | https://developer.nvidia.com/cudnn |
-| node-red	    | 2.0.5	        | https://www.npmjs.com/package/node-red |
-| node.js       | 16.1.0        | https://nodejs.org/en/|
-| tfjs-node-gpu | 3.9.0	        | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
-| canvas        | 2.8.0 | https://www.npmjs.com/package/canvas |
+| node-red	    | 2.1.4	        | https://www.npmjs.com/package/node-red |
+| node.js       | 16.13.2       | https://nodejs.org/en/|
+| tfjs-node-gpu | 3.12.0	      | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
+| canvas        | 2.8.0         | https://www.npmjs.com/package/canvas |
 
 PC setup which I have used:
 
@@ -24,7 +24,7 @@ Windows 10
 
 16 GB RAM
 
-NVIDIA Quadro P600
+NVIDIA Quadro P600 (511.09)
 
 
 ## Installation
@@ -64,7 +64,7 @@ Copy ```cusolver64_10.dll``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit
 
 ### 4. Download and install Node.js
 
-https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.1.0-x64.msi
+https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.13.2-x64.msi
 
 **Install with all options and addons.**
 
@@ -76,13 +76,13 @@ npm install -g --unsafe-perm node-red
 ```
 
 
-### 6. Install @tensorflow/tfjs-node-gpu@3.8.0
+### 6. Install @tensorflow/tfjs-node-gpu@3.12.0
 ```
 cd c:\users\<your-user-name>\.node-red
 ```
 
 ```
-npm install @tensorflow/tfjs-node-gpu@3.8.0
+npm install @tensorflow/tfjs-node-gpu@3.12.0
 ```
 
 ### 7. Test your setup
