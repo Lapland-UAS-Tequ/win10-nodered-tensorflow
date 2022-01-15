@@ -1,3 +1,9 @@
+This resource is developed in Fish-IoT project
+
+https://www.tequ.fi/en/project-bank/fish-iot/ 
+
+---
+
 # win10-nodered-tensorflow
 This guide is for preparing your Windows 10 machine for computer vision in Node-RED with "tfjs-node-gpu" and canvas modules. GPU support requires Windows 10 PC with CUDA compatible NVIDIA GPU. If you skip CUDA installations, Tensorflow should fall back to CPU backend. 
 
