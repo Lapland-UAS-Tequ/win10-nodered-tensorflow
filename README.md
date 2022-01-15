@@ -136,7 +136,12 @@ node-gyp configure
 node-gyp build
 ```
 
-### 8. Start Node-RED 
+### 9. Start Node-RED 
+
+Start Node-RED from command line or configure Node-RED to start at boot
+
+https://nodered.org/docs/faq/starting-node-red-on-boot
+
 
 # Use Tensorflow in Node-RED
 
