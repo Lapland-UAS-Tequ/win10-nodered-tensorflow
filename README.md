@@ -194,9 +194,11 @@ https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/example_savedmodel
 
 ### 4. Use Tensorflow in Node-RED
 
-Inject image to flow and start detecting objects.
+- Configure "[AI] Detect-sm" model_folder to match folder where you downloaded the example model.
 
-First inference is slow and it takes something like ~5-30 seconds. After that it should run smoothly. Max fps depends of image size and machine you are using.
+- Inject image to flow and start detecting objects.
+
+- First inference is slow and can take something like ~5-30 seconds. After that it should run smoothly. Max fps depends of image size and machine you are using.
 
 ### 5. Custom object detection model
 
