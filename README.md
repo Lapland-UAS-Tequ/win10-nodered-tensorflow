@@ -50,7 +50,7 @@ Download cuDNN 8 package and install files.
 https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cudnn_8.3.2.44_windows.exe
 
 
-Add environment variables to PATH to point the location of cuDNN to make things work.
+Add following paths to PATH environment variable:
 
 ```
 C:\Program Files\NVIDIA\CUDNN\v8.3\bin
@@ -60,6 +60,18 @@ C:\Program Files\NVIDIA\CUDNN\v8.3\bin
 C:\Program Files\NVIDIA\CUDNN\v8.3\lib\x64
 ```
 
+
+Download ZLIB DLL
+
+https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/zlib123dllx64.zip
+
+Extract to C:\zlib123dllx64
+
+Add following path to PATH environment variable
+
+```
+C:\zlib123dllx64\dll_x64
+```
 
 ## 3. Download and install Node.js
 
