@@ -57,7 +57,7 @@ C:\Program Files\NVIDIA\CUDNN\v8.3\bin
 ```
 
 ```
-C:\Program Files\NVIDIA\CUDNN\v8.3\lib
+C:\Program Files\NVIDIA\CUDNN\v8.3\lib\x64
 ```
 
 
