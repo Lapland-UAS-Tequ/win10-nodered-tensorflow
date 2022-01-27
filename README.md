@@ -49,40 +49,33 @@ Download cuDNN 8 package and install files.
 
 https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cudnn_8.3.2.44_windows.exe
 
-Copy extracted files to CUDA Toolkit installation folder following the same folder structure.
 
-Copy extracted files in folder ```Cuda\bin``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin```
+Add environment variables to PATH to point the location of cuDNN to make things work.
 
-Copy extracted files in folder ```Cuda\lib``` to ```C::\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\lib```
+```
+C:\Program Files\NVIDIA\CUDNN\v8.3\bin
+```
 
-Copy extracted files in folder ```Cuda\include``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include```
-
-
-You could also setup environment variables to point the location of cuDNN files to make things work.
-
-
-## 3. Download and install cusolver64_10.dll if its missing
-
-https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/cusolver64_10.dll
-
-Copy ```cusolver64_10.dll``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin```
+```
+C:\Program Files\NVIDIA\CUDNN\v8.3\lib
+```
 
 
-## 4. Download and install Node.js
+## 3. Download and install Node.js
 
 https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.13.2-x64.msi
 
 **Install with all options and addons.**
 
 
-## 5. Install Node-RED
+## 4. Install Node-RED
 
 ```
 npm install -g --unsafe-perm node-red
 ```
 
 
-## 6. Install @tensorflow/tfjs-node-gpu@3.13.0
+## 5. Install @tensorflow/tfjs-node-gpu@3.13.0
 ```
 cd c:\users\<your-user-name>\.node-red
 ```
@@ -91,7 +84,7 @@ cd c:\users\<your-user-name>\.node-red
 npm install @tensorflow/tfjs-node-gpu@3.13.0
 ```
 
-## 7. Test your setup
+## 6. Test your setup
 
 ```
 cd c:\users\<your-user-name>\.node-red
