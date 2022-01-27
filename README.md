@@ -14,8 +14,8 @@ After running all commands you should have following versions of the components 
 
 | Software      | Version       | Link |
 | ------------- |:-------------:| :-------------:| 
-| CUDA          | 11.3.326      | https://developer.nvidia.com/cuda-downloads |
-| cuDNN         | 8.2.0.53	    | https://developer.nvidia.com/cudnn |
+| CUDA          | 11.6.0_511.23 | https://developer.nvidia.com/cuda-downloads |
+| cuDNN         | 8.3.2.44	    | https://developer.nvidia.com/cudnn |
 | node-red	    | 2.1.6	        | https://www.npmjs.com/package/node-red |
 | node.js       | 16.13.2       | https://nodejs.org/en/|
 | tfjs-node-gpu | 3.13.0	      | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
@@ -40,14 +40,14 @@ NVIDIA Quadro P600 (511.09)
 
 Download CUDA 11 toolkit and run installer.
 
-https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/cuda_11.3.0_465.89_win10.exe
+https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cuda_11.6.0_511.23_windows.exe
 
 
 ## 2. Download and unzip cuDNN 8.
 
 Download cuDNN 8 package and install files.
 
-https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/cudnn-11.3-windows-x64-v8.2.0.53.zip
+https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cudnn_8.3.2.44_windows.exe
 
 Copy extracted files to CUDA Toolkit installation folder following the same folder structure.
 
