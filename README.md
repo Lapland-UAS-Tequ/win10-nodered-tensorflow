@@ -70,7 +70,7 @@ Copy ```cusolver64_10.dll``` to ```C:\Program Files\NVIDIA GPU Computing Toolkit
 
 ## 4. Download and install Node.js
 
-https://tequ-win10-nodered-tensorflow.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.13.2-x64.msi
+https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.13.2-x64.msi
 
 **Install with all options and addons.**
 
