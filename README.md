@@ -16,9 +16,9 @@ After running all commands you should have following versions of the components 
 | ------------- |:-------------:| :-------------:| 
 | CUDA          | 11.3.326      | https://developer.nvidia.com/cuda-downloads |
 | cuDNN         | 8.2.0.53	    | https://developer.nvidia.com/cudnn |
-| node-red	    | 2.1.4	        | https://www.npmjs.com/package/node-red |
+| node-red	    | 2.1.6	        | https://www.npmjs.com/package/node-red |
 | node.js       | 16.13.2       | https://nodejs.org/en/|
-| tfjs-node-gpu | 3.12.0	      | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
+| tfjs-node-gpu | 3.13.0	      | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
 | canvas        | 2.8.0         | https://www.npmjs.com/package/canvas |
 
 PC setup which I have used:
@@ -82,13 +82,13 @@ npm install -g --unsafe-perm node-red
 ```
 
 
-## 6. Install @tensorflow/tfjs-node-gpu@3.12.0
+## 6. Install @tensorflow/tfjs-node-gpu@3.13.0
 ```
 cd c:\users\<your-user-name>\.node-red
 ```
 
 ```
-npm install @tensorflow/tfjs-node-gpu@3.12.0
+npm install @tensorflow/tfjs-node-gpu@3.13.0
 ```
 
 ## 7. Test your setup
