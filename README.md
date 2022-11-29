@@ -23,7 +23,7 @@ PC setups which I have successfully used:
 
 Dell Laptop, Intel Core i7-8850H @ 2.60 GHz, Windows 10, 16 GB RAM, NVIDIA Quadro P600 (511.09)
 
-Dell Laptop,Intel Core i7-11850H @ 2.50 GHz,Windows 10, 32 GB RAM, NVIDIA RTX A3000 Laptop GPU (522.06)
+Dell Laptop, Intel Core i7-11850H @ 2.50 GHz, Windows 10, 32 GB RAM, NVIDIA RTX A3000 Laptop GPU (522.06)
 
 
 # Installation
