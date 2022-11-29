@@ -8,8 +8,6 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 This guide is for preparing your Windows 10 machine for computer vision in Node-RED with "tfjs-node-gpu" and canvas modules. GPU support requires Windows 10 PC with CUDA compatible NVIDIA GPU. If you skip CUDA installations, Tensorflow should fall back to CPU backend. 
 
 
-
-
 After running all commands you should have following versions of the components and be able to make predictions on images.
 
 | Software      | Version       | Link |
@@ -25,12 +23,15 @@ PC setup which I have used:
 
 Dell Laptop
 Intel Core i7-8850H @ 2.60 GHz
-
 Windows 10
-
 16 GB RAM
-
 NVIDIA Quadro P600 (511.09)
+
+Dell Laptop
+Intel Core i7-11850H @ 2.50 GHz
+Windows 10
+32 GB RAM
+NVIDIA RTX A3000 Laptop GPU (522.06)
 
 
 # Installation
