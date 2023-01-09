@@ -7,7 +7,6 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 # win10-nodered-tensorflow
 This guide is for preparing your Windows 10 machine for computer vision in Node-RED with "tfjs-node-gpu" and canvas modules. GPU support requires Windows 10 PC with CUDA compatible NVIDIA GPU. If you skip CUDA installations, Tensorflow should fall back to CPU backend. 
 
-
 After running all commands you should have following versions of the components and be able to make predictions on images.
 
 | Software      | Version       | Link |
@@ -34,13 +33,11 @@ Download CUDA 11 toolkit and run installer.
 
 https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cuda_11.6.0_511.23_windows.exe
 
-
 ## 2. Download and unzip cuDNN 8.
 
 Download cuDNN 8 package and install files.
 
 https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cudnn_8.3.2.44_windows.exe
-
 
 Add following paths to PATH environment variable:
 
@@ -77,7 +74,6 @@ https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.13.2-x64.
 ```
 npm install -g --unsafe-perm node-red
 ```
-
 
 ## 5. Install @tensorflow/tfjs-node-gpu@3.13.0
 ```
