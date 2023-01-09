@@ -15,7 +15,7 @@ After running all commands you should have following versions of the components 
 | cuDNN         | 8.3.2.44	    | https://developer.nvidia.com/cudnn |
 | node-red	    | 3.0.2	        | https://www.npmjs.com/package/node-red |
 | node.js       | 16.13.2       | https://nodejs.org/en/|
-| tfjs-node-gpu | 4.2.0	      | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
+| tfjs-node-gpu | 3.13.0	      | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
 | canvas        | 2.8.0         | https://www.npmjs.com/package/canvas |
 
 PC setups which I have successfully used:
