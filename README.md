@@ -15,7 +15,7 @@ After running all commands you should have following versions of the components 
 | cuDNN         | 8.3.2.44	    | https://developer.nvidia.com/cudnn |
 | node-red	    | 3.0.2	        | https://www.npmjs.com/package/node-red |
 | node.js       | 16.13.2       | https://nodejs.org/en/|
-| tfjs-node-gpu | 3.13.0	      | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
+| tfjs-node-gpu | 4.2.0	      | https://www.npmjs.com/package/@tensorflow/tfjs-node-gpu |
 | canvas        | 2.8.0         | https://www.npmjs.com/package/canvas |
 
 PC setups which I have successfully used:
@@ -24,8 +24,7 @@ Dell Laptop, Intel Core i7-8850H @ 2.60 GHz, Windows 10, 16 GB RAM, NVIDIA Quadr
 
 Dell Laptop, Intel Core i7-11850H @ 2.50 GHz, Windows 10, 32 GB RAM, NVIDIA RTX A3000 Laptop GPU (522.06)
 
-
-# Installation
+# Install with GPU support
 
 ## 1. Download CUDA 11 Toolkit.
 
