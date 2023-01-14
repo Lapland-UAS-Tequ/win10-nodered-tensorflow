@@ -104,13 +104,14 @@ https://github.com/Lapland-UAS-Tequ/win10-nodered-tensorflow/blob/master/images/
 
 ## 8. Install canvas for fast annotation and image processing
 
-Download and install libjpeg-turbo-2.1.2-vc64.exe (or newer) to folder C:\libjpeg-turbo64
+Download and install libjpeg-turbo-2.1.4-vc64.exe to folder C:\libjpeg-turbo64
 
-https://sourceforge.net/projects/libjpeg-turbo/files/
+- https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/libjpeg-turbo-2.1.4-vc64.exe
+
 
 Download and install GTK 2 64bit to folder C:\GTK
 
-http://ftp.gnome.org/pub/GNOME/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip
+- https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/gtk+-bundle_2.22.1-20101229_win64.zip
 
 Execute following commands
 
