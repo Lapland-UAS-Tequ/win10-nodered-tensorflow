@@ -30,13 +30,13 @@ Dell Laptop, Intel Core i7-11850H @ 2.50 GHz, Windows 10, 32 GB RAM, NVIDIA RTX 
 
 Download CUDA 11 toolkit and run installer.
 
-https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cuda_11.6.0_511.23_windows.exe
+- https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cuda_11.6.0_511.23_windows.exe
 
 ## 2. Download and unzip cuDNN 8.
 
 Download cuDNN 8 package and install files.
 
-https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cudnn_8.3.2.44_windows.exe
+- https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/cudnn_8.3.2.44_windows.exe
 
 Add following paths to PATH environment variable:
 
@@ -51,7 +51,7 @@ C:\Program Files\NVIDIA\CUDNN\v8.3\lib\x64
 
 Download ZLIB DLL
 
-https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/zlib123dllx64.zip
+- https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/zlib123dllx64.zip
 
 Extract to C:\zlib123dllx64
 
@@ -63,7 +63,7 @@ C:\zlib123dllx64\dll_x64
 
 ## 3. Download and install Node.js
 
-https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.13.2-x64.msi
+- https://tequ-files.s3.eu.cloud-object-storage.appdomain.cloud/node-v16.13.2-x64.msi
 
 **Install with all options and addons.**
 
