@@ -126,6 +126,10 @@ node-gyp configure
 ```
 node-gyp build
 ```
+If you encounter issues during installation, see these links:
+- https://sharp.pixelplumbing.com/install#canvas-and-windows
+- https://github.com/Automattic/node-canvas/wiki/Installation:-Windows
+
 
 ### 6. Start Node-RED 
 
